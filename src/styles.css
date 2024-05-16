@@ -1,0 +1,50 @@
+.App {
+  font-family: sans-serif;
+  text-align: center;
+}
+
+.gamegrid-container {
+  display: flex;
+  margin-top: 100px;
+  margin-left: 100px;
+}
+
+.game-grid {
+  display: grid;
+  grid-template-columns: repeat(3, 0fr);
+  gap: 5px;
+}
+
+.grid-Box {
+  height: 200px;
+  width: 200px;
+  background-color: lightblue;
+  border: 1px solid black;
+  border-radius: 5px;
+  padding: 5px 5px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.box-display {
+  font-size: 100px;
+}
+
+.player-container {
+  display: flex;
+  flex-direction: column;
+
+  padding: 40px;
+  border: 1px solid #000;
+  border-radius: 5px;
+  gap: 20px;
+  list-style-type: none;
+}
+
+.active-player {
+  background-color: brown;
+}
+
+.inactive-player {
+  background-color: white;
+}
